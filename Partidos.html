@@ -15,6 +15,14 @@
     <link href="./css/style.css" rel="stylesheet">
     <link href="./css/responsive.css" rel="stylesheet">
 
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/responsive.css" rel="stylesheet">
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="~/lib/twitter-bootstrap/css/bootstrap.css" />
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <div class="container-fluid ">
@@ -34,13 +42,14 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Quienes Somos</a>
+                        
+                        <a class="nav-link " href="QuienesSomos.html" asp-area="" asp-controller="" asp-action="QuienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Mision</a>
+                        <a class="nav-link "  href="Mision.html" asp-area="" asp-controller="Home" asp-action="Privacy">Mision</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Visión</a>
+                        <a class="nav-link " href="Vision.html" asp-area="" asp-controller="Home" asp-action="Privacy">Visión</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy">Administrador</a>
@@ -166,7 +175,48 @@
                 </div>
             </div>
         </div>
+        <br />
+<br />
+<br />
+        <footer class="border-top footer text-muted">
 
+            <div class="container-fluid">
+                
+                    <div class="form-group  col-md-12">
+                        <div class="pull-left">
+                            <button type="button" class="btn btn btn-light btn-lg"><span class="glyphicon glyphicon-map-marker"</span></button>
+                            </a>Avenida Calle 26 # 51 - 50 Bogotá - Colombia</a>
+                        </div>
+                    </div>
+                    <div class="form-group  col-md-12">
+                        <div class="pull-left">
+                            <button type="button" class="btn btn btn-light btn-lg"><span class="glyphicon glyphicon-envelope"</span></button>
+                            </a>elecciones@registraduria.gov.co</a>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12 ">
+                        <div class="col-md-6">
+                            <div class=" fa-pull-right" style="text-align: right;width:1300px">
+                               &copy; 2022 - Registraduria - <a asp-area="" asp-controller="Home" asp-action="Privacy">Contáctenos</a>
+                            </div>
+                            <div class="pull-left">
+                                <button  type="button" class="btn btn btn-light btn-lg"><span class="glyphicon glyphicon-phone-alt"</span></button>
+                                </a>+57(601)2202880</a>
+                            </div>
+        
+                            <div class="fa-pull-right" style="text-align: right;width:1300px">
+                                <button type="button" class="btn btn btn-light btn-lg"><span class="bi-facebook"</span></button>
+                                <button type="button" class="btn btn btn-light btn-lg"><span class="bi-instagram"</span></button>
+                                <button type="button" class="btn btn btn-light btn-lg"><span class="bi-twitter"</span></button>
+                                <button type="button" class="btn btn btn-light btn-lg"><span class="bi-youtube"</span></button>
+                                <button type="button" class="btn btn btn-light btn-lg"><span class="bi-linkedin"</span></button>
+                            </div>
+                        </div><!--//row-->
+                    </div><!--//container-fluid-->
+                </div>
+            </div>
+        
+        </footer>
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
             integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
